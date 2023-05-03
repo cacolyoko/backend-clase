@@ -8,3 +8,8 @@ function cambiarColor(codigo) { // codigo --> #fabada
     title.innerHTML = codigo;
 }
 
+fetch("http://localhost:4000")
+.then(respuesta => respuesta.json())
+.then(color => {
+    console.log(color);
+});
