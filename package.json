@@ -1,0 +1,12 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Ejercicio de clase",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
