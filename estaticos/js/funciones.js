@@ -12,7 +12,7 @@ function hexadecimal({r, g, b}) {
     return "#" + [r,g,b].map(n => `${n < 16 ? "0" : ""}${n.toString(16)}`).join("");
 }
 
-fetch("http://localhost:4000")
+fetch("https://api-clase.vercel.app/")
 .then(respuesta => respuesta.json())
 .then(color => {
     cambiarColor(hexadecimal(color));
